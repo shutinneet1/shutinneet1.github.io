@@ -15,40 +15,84 @@ waifu_button.addEventListener("click", waifuClick);
 
 function waifuClick(event) {
     event.preventDefault();
-    Math.floor(Math.random(11));
-    if (num === 1) {
+
+    let rand_num = Math.floor(Math.random(11));
+
+    if (rand_num === 1) {
         window.alert("Your waifu is Scathach");
+        let image = document.CreateElement("img");
+        image.src = "images/shishou.png";
+        element.appendChild("img");
     }
-    if (num === 2) {
+
+    if (rand_num === 2) {
         window.alert("Your waifu is Scathach");
+        let image = document.CreateElement("img");
+        image.src = "images/shishou.png";
+        element.appendChild("img");
     }
-    if (num === 3) {
+
+    if (rand_num === 3) {
         window.alert("Your waifu is Scathach");
+        let image = document.CreateElement("img");
+        image.src = "images/shishou.png";
+        element.appendChild("img");
     }
-    if (num === 4) {
+
+    if (rand_num === 4) {
         window.alert("Your waifu is Scathach");
+        let image = document.CreateElement("img");
+        image.src = "images/shishou.png";
+        element.appendChild("img");
     }
-    if (num === 5) {
+
+    if (rand_num === 5) {
         window.alert("Your waifu is Scathach");
+        let image = document.CreateElement("img");
+        image.src = "images/shishou.png";
+        element.appendChild("img");
     }
-    if (num === 6) {
+
+    if (rand_num === 6) {
         window.alert("Your waifu is Scathach");
+        let image = document.CreateElement("img");
+        image.src = "images/shishou.png";
+        element.appendChild("img");
     }
-    if (num === 7) {
+
+    if (rand_num === 7) {
         window.alert("Your waifu is Scathach");
+        let image = document.CreateElement("img");
+        image.src = "images/shishou.png";
+        element.appendChild("img");
     }
-    if (num === 8) {
+
+    if (rand_num === 8) {
         window.alert("Your waifu is Scathach");
+        let image = document.CreateElement("img");
+        image.src = "images/shishou.png";
+        element.appendChild("img");
     }
-    if (num === 9) {
+
+    if (rand_num === 9) {
         window.alert("Your waifu is Scathach");
+        let image = document.CreateElement("img");
+        image.src = "images/shishou.png";
+        element.appendChild("img");
     }
-    if (num === 10) {
+
+    if (rand_num === 10) {
         window.alert("Your waifu is Scathach");
+        let image = document.CreateElement("img");
+        image.src = "images/shishou.png";
+        element.appendChild("img");
     }
+
     else {
         window.alert("Your waifu is Scathach");
+        let image = document.CreateElement("img");
+        image.src = "images/shishou.png";
+        element.appendChild("img");
     }
-    let img = doucmentCreateElement("img");
-    img.src = "images/shishou.png";
+    
 }
